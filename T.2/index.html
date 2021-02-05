@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GBS T2
+    </title>
+</head>
+
+<header bgcolor="#FFFFFF">
+    <table bgcolor="#E7E9F3" border="0" width="66%" align="center" cellpadding="5" cellspacing="10">
+        <tr bgcolor="#5D6BB1">
+            <th>
+                <h1>
+                    <font color="#1F2337" face="Helvetica"><img src="formicon.png" height="40px" width="auto" alt="">
+                        <span></span> STUDENT REGISTRATION FORM
+                    </font>
+                </h1>
+            </th>
+        </tr>
+    </table>
+</header>
+
+<body bgcolor="#FFFFFF">
+    <form action="Submit.html" method="get">
+        <table bgcolor="#E7E9F3" border="0" width="66%" align="center" cellpadding="5" cellspacing="5">
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="fname">
+                        <font color="white" face="Helvetica">FIRST NAME:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text" id="fname" name="fname" placeholder="Ateeb" maxlength="30" required>
+                    <font color="white">(max 30 characters a-z and A-Z)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="lname">
+                        <font color="white" face="Helvetica">LAST NAME:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname" placeholder="Adil" maxlength="30" required>
+                    <font color="white">(max 30 characters a-z and A-Z)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="DateOfBirth">
+                        <font color="white" face="Helvetica">DATE OF BIRTH:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="date" id="DateOfBirth" name="DateOfBirth" required>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="Email">
+                        <font color="white" face="Helvetica">EMAIL:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="email" id="Email" name="Email" placeholder="xyz@Example.com" required>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="mnum">
+                        <font color="white" face="Helvetica">MOBILE NUMBER:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="mnum" name="mobilenumber" maxlength="11" placeholder="3XXXXXXXX" required>
+                    <font color="white">(max 10 digit)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="Gender">
+                        <font color="white" face="Helvetica">GENDER:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">
+                        <font color="white">Male</font>
+                    </label>
+                    <br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">
+                        <font color="white">Female</font>
+                    </label>
+                    <br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">
+                        <font color="white">Not to Specify</font>
+                    </label>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="address">
+                        <font color="white" face="Helvetica">ADDRESS:</font>
+                    </label>
+                </td>
+                <td>
+                    <textarea name="address" cols="30" rows="5" required></textarea>
+                    <font color="white">Enter your current address</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="cname">
+                        <font color="white" face="Helvetica">CITY:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text" id="cname" name="cname" placeholder="Enter City Name" maxlength="30" required>
+                    <font color="white">(max 30 characters a-z and A-Z)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="State">
+                        <font color="white" face="Helvetica">PIN CODE:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="number" id="sname " name="sname " placeholder="Enter PINCODE" maxlength="6" required>
+                    <font color="white ">(max 6 digit)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="State">
+                        <font color="white" face="Helvetica">STATE:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text " id="sname " name="sname " placeholder="Enter State Name " maxlength="30 " required>
+                    <font color="white ">(max 30 characters a-z and A-Z)</font>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="Country">
+                        <font color="white" face="Helvetica">COUNTRY:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="text " id="sname " name="sname " placeholder="Enter Country Name " required>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="hobbies">
+                        <font color="white" face="Helvetica">HOBBIES:</font>
+                    </label>
+                </td>
+                <td>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="drawing">
+                    <label for="hobbies">
+                        <font color="white ">Drawing</font>
+                    </label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="singing">
+                    <label for="hobbies">
+                        <font color="white ">Singing</font>
+                    </label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="dancing">
+                    <label for="hobbies">
+                        <font color="white ">Dancing</font>
+                    </label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="drawing">
+                    <label for="hobbies">
+                        <font color="white ">Drawing</font>
+                    </label>
+                    <input type="checkbox" name="hobbies"> <br>
+                    <font color="white ">Others </font><input type="text" name="">
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="Qualification">
+                        <font color="white" face="Helvetica">QUALIFICATION:</font>
+                    </label>
+                </td>
+                <td>
+                    <table bgcolor="#A1A9D2" border="0" width="100%" align="center" cellpadding="2" cellspacing="2">
+                        <tr bgcolor="#5D6BB1" align="center">
+                            <th>
+                                <font color="white" face="Helvetica">SR #</font>
+                            </th>
+                            <th>
+                                <font color="white" face="Helvetica">Examination</font>
+                            </th>
+                            <th>
+                                <font color="white" face="Helvetica">Board</font>
+                            </th>
+                            <th>
+                                <font color="white" face="Helvetica">Percentage</font>
+                            </th>
+                            <th>
+                                <font color="white" face="Helvetica">Year of Passing</font>
+                            </th>
+                        </tr>
+                        <tr bgcolor="#5D6BB1" align="center">
+                            <td>
+                                <font color="white" face="Helvetica">1</font>
+                            </td>
+                            <td>
+                                <font color="white" face="Helvetica">Class X</font>
+                            </td>
+                            <td bgcolor="#5D6BB"><input type="text" name="board" maxlength="10"></td>
+                            <td bgcolor="#5D6BB"><input type="number" name="Percentage"></td>
+                            <td bgcolor="#5D6BB"><input type="month" name="year"></td>
+                        </tr>
+            </tr>
+            <tr bgcolor="#5D6BB1" align="center">
+                <td>
+                    <font color="white" face="Helvetica">2</font>
+                </td>
+                <td>
+                    <font color="white" face="Helvetica">Class XII</font>
+                </td>
+                <td bgcolor="#5D6BB"><input type="text" name="board" maxlength="10"></td>
+                <td bgcolor="#5D6BB"><input type="number" name="Percentage"></td>
+                <td bgcolor="#5D6BB"><input type="month" name="year"></td>
+            </tr>
+            </tr>
+            <tr bgcolor="#5D6BB1" align="center">
+                <td>
+                    <font color="white" face="Helvetica">3</font>
+                </td>
+                <td>
+                    <font color="white" face="Helvetica">Graducation</font>
+                </td>
+                <td bgcolor="#5D6BB"><input type="text" name="board" maxlength="10"></td>
+                <td bgcolor="#5D6BB"><input type="number" name="Percentage"></td>
+                <td bgcolor="#5D6BB"><input type="month" name="year"></td>
+            </tr>
+            </tr>
+            <tr bgcolor="#5D6BB1" align="center">
+                <td>
+                    <font color="white" face="Helvetica">4</font>
+                </td>
+                <td>
+                    <font color="white" face="Helvetica">Masters</font>
+                </td>
+                <td bgcolor="#5D6BB"><input type="text" name="board" maxlength="10"></td>
+                <td bgcolor="#5D6BB"><input type="number" name="Percentage"></td>
+                <td bgcolor="#5D6BB"><input type="month" name="year"></td>
+            </tr>
+            </table>
+            </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="Cousres">
+                    <font color="white" face="Helvetica">COURSES APPLIED:</font>
+                </label>
+                </td>
+                <td>
+                    <input type="radio" id="BCA" name="Cousres" value="BCA">
+                    <label for="BCA">BCA</label><br>
+                    <input type="radio" id="BCom" name="Cousres" value="BCom">
+                    <label for="BCom">B.COM</label><br>
+                    <input type="radio" id="BSc" name="Cousres" value="BSc">
+                    <label for="BSc">B.Sc</label><br>
+                    <input type="radio" id="BA" name="Cousres" value="BA">
+                    <label for="BA">B.A</label>
+                </td>
+            </tr>
+            <tr bgcolor="#A1A9D2">
+                <td>
+                    <label for="file">
+                    <font color="white" face="Helvetica">UPLOAD DOCUMENTS:</font>
+                </label>
+                </td>
+                <td>
+                    <label for="myfile">
+                    <font color="white" face="Helvetica">Select a File</font>
+                </label>
+                    <input type="file" id="myfile" name="myfile"><br>
+                    <font color="white">*Upload all concerned documents</font>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <table bgcolor="#A1A9D2" border="0" width="100%" align="center" cellpadding="5" cellspacing="5">
+                        <tr align="center">
+                            <td>
+                                <button type="submit"><img src="check .png" height="12px" width="auto" alt="">
+                                Submit</button>
+
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td><button type="reset"><img src="redo.png" height="12px" width="auto" alt=""> Reset</button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
